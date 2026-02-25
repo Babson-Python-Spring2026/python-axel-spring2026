@@ -57,7 +57,10 @@
    "outputs": [],
    "source": [
     "# Prediction:\n",
+    "# I think the answer is 10 because if you add all the even numbers and subtract (1) for each odd number you get 10\n",
+    "\n",
     "# Explanation:\n",
+    "# Because for each odd # you subtract 1 \n",
     "\n"
    ]
   },
@@ -591,13 +594,13 @@
  ],
  "metadata": {
   "kernelspec": {
-   "display_name": "base",
+   "display_name": "Python 3",
    "language": "python",
    "name": "python3"
   },
   "language_info": {
    "name": "python",
-   "version": "3.13.9"
+   "version": "3.13"
   }
  },
  "nbformat": 4,
