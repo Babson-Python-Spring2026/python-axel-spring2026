@@ -4,7 +4,7 @@ Good scaffold completion. The functions are clear, readable, and follow the inte
 This looks like solid intro-level work that translates the scaffold into working code without 
 overcomplicating things.
 
-grade 85
+grade 87.5
 
 """
 TIC TAC TOE — FUNCTION SCAFFOLD
