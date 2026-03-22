@@ -1,3 +1,35 @@
+'''
+Axel — 8.5 / 10
+
+Overall
+
+This is a strong submission. The explanations of state and invariants are clear and generally accurate. The student demonstrates a good understanding of the purpose of the shared board and the need to undo moves.
+
+Strengths
+
+Good explanation of state variables.
+Correct identification of invariants like alternating turns and stopping after a win.
+The explanation of undoing moves shows a clear mental model of exploring the search tree.
+
+Weaknesses
+
+Some answers are slightly generic (e.g., transitions explanation).
+A few comments restate the code rather than explaining why something is necessary.
+Minor wording issues.
+
+AI likelihood
+
+Low to moderate.
+
+Signals suggesting mostly human work:
+
+Some phrasing is slightly rough and informal.
+Reasoning appears sequential rather than overly polished.
+
+Estimated probability of AI assistance: 20–30%
+
+GRADE: 92.5
+
 """
 Homework: Reading Code with State / Transitions / Invariants (Tic-Tac-Toe)
 
