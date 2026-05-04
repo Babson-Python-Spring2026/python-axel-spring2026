@@ -1,0 +1,53 @@
+Lab 4 Grade
+PART 1: CODE (50 pts)
+Breakdown
+Category	        Score	        Comments
+Board Setup	              8/10	Correct inputs and validation. Missing two-board design (visible vs hidden).
+Mine Placement	          10/10	Fully correct: random, no duplicates, correct count.
+Neighbor Counts	          9/10	Correct logic overall. Minor inefficiency: includes self-check in loop.
+User Move Handling	      3/5	  Bounds checking is good. Does not prevent selecting revealed cells.
+Reveal Logic (Flood Fill)	2/10	Major issue: no flood fill. Only reveals one cell and ends game.
+Game Loop & Win Condition	0/5	  Game ends after one move; no real win condition.
+Code Total: 32 / 50
+
+PART 2: CHAT TRANSCRIPT (50 pts)
+Breakdown
+Category	Score	Comments
+Game Identification	        5/5	  Correctly identified Minesweeper early.
+Representation & Design	    5/15	Did NOT independently propose two-board model. AI drove all structural decisions.
+Mine + Count Understanding	8/10	Shows understanding of mines and adjacency counts.
+Reveal Logic (Flood Fill)	  2/15	Major miss: never identifies flood fill as the core challenge. Accepts simplified “single dig” model.
+Control of AI	              3/5	  Participates and tests, but AI clearly drives design and implementation.
+Chat Total: 23 / 50
+Final Score: 55 / 100
+Grade: C
+
+You did a solid job identifying the game as Minesweeper and reconstructing key parts of the setup, including input handling, mine placement, and neighbor counting. 
+Your code is clean and follows the structure of the original program closely, which shows good attention to detail.
+
+However, there are two major issues that limited your score:
+
+1. Incomplete Game Logic (Code)
+
+Your version ends after a single move and immediately declares a win if the cell is not a mine. This is not how Minesweeper works. 
+The original game continues until all safe cells are revealed. More importantly, your implementation is missing the flood-fill behavior, 
+where selecting a blank cell reveals connected blank regions and adjacent numbered cells. This is the most important algorithmic part of 
+the assignment.
+
+2. Lack of Design Ownership (Chat Transcript)
+
+The transcript shows that the AI did most of the thinking:
+
+The AI identified the structure of the program
+The AI proposed the functions
+The AI provided nearly all the code
+
+Your role was mostly responding, testing, and confirming.
+
+What was missing:
+
+You did not independently propose key design ideas (like separating hidden vs visible board)
+You did not identify the flood-fill logic as the core challenge
+You accepted the “single-dig” simplification instead of questioning it
+
+This lab was specifically about showing that you are driving the reasoning and using AI as a tool, not the other way around.
